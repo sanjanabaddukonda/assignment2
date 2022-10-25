@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*main body customization / defaul*/
+body {
+  background: #a4a3a8;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/*BANNER FOR NAVIGATION*/
+nav{
+background-color: #131313;
+overflow: hidden;
+
+}
+
+/*navigation text*/
+nav a {
+  float: left;
+  color: #d5d0cb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/*hover colour change*/
+nav a:hover{
+  background-color: #46454c;
+  color: #f9fafa;
+
+}
+
+/*click colour change*/
+nav a.active{
+  background-color: #f9fafa;
+  color: white;
+}
+
+/*landing page introduction and styling*/
+.Landing{
+  margin-left: 3.3%;
+  margin-right: 3.3%;
+  background-color: #4B4A51;
+  color: white;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:10px;
+  
+}
+
+.Landing h1{
+  padding: 2%;
+  font-size: 50px;
+  color: wheat;
+  text-decoration: double;
+}
+
+.Landing p{
+  font-size:20px;
+}
+
+.content{
+  margin-left: 3%
+}
+h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  display: inline-block;
+}
+
+/*----------------------------------------------------about me---------------------------------------------------------------------*/
+
+/*the resume page/box around everything*/
+.box {
+  background: #e8e3df;
+  width: 50rem;
+  padding: 3rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.header-left {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.first-name {
+  font-weight: 400;
+  margin: 0;
+}
+.last-name {
+  font-weight: 200;
+  margin: 0;
+}
+
+.header-right {
+  width: 100%;
+  display: grid;
+  justify-items: end;
+}
+
+.header-right p {
+  display: inline-block;
+}
+
+.grey {
+  background: #4b4a51;
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  padding: 0.4rem;
+}
+
+/*------------------------------contact me-------------------------------------------------------------------*/
+.form{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/*-----------------------------------------------------projects-------------------------------------------------------------------------------------------------*/
+
+body,html,h1,h2,p, div,a,img,header,footer,span{
+  margin: 5;
+  padding: 10;
+}
+/*responsive*/
+*{box-sizing:border-box}
+footer{color: #fbfbfb; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; text-align: center; padding: 2em 0;}
+
+main{
+width:94.75%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.col{
+  width: 33.333%;
+  height:800px;
+  float: left;
+  text-align: center;
+  padding:1rem;
+}
+
+.col h2{
+  padding: 10%
+}
+
+.col1{border-radius: 0.5rem;
+   background: #99989e;}
+.col2{ background: #aeacb4;
+  border-radius: 0.5rem;}
+.col3{ background: #c1c0c7;
+  border-radius: 0.5rem;}
+
+footer{
+  clear:both;
+}
