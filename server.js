@@ -7,6 +7,8 @@
 var app = require('./app');
 var debug = require('debug')('webproject:server');
 var http = require('http');
+const { router, response } = require('./app');
+const { fstat } = require('fs');
 
 /**
  * Get port from environment and store in Express.
@@ -88,3 +90,4 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
+
